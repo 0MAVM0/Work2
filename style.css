@@ -42,6 +42,7 @@ nav > ul > li:first-child {
     padding: 25px 150px 25px 150px;
     grid-template-columns: 3fr 1fr;
     margin-top: 75px;
+    margin-bottom: 50px;
 }
 .div1 > div:first-child > h1 {
     font-size: 45px;
@@ -52,10 +53,10 @@ nav > ul > li:first-child {
 }
 .grid1 {
     width: 80%;
-    gap: 75px;
+    gap: 50px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 .grid1 > div {
     grid-template-columns: 1fr 2fr;
