@@ -18,10 +18,6 @@ nav {
     background-color: rgb(125, 125, 125);
     color: white;
     align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
 }
 nav > ul {
     width: 100%;
@@ -41,7 +37,6 @@ nav > ul > li:first-child {
     width: 100%;
     padding: 25px 150px 25px 150px;
     grid-template-columns: 3fr 1fr;
-    margin-top: 75px;
     margin-bottom: 50px;
 }
 .div1 > div:first-child > h1 {
@@ -111,4 +106,72 @@ nav > ul > li:first-child {
 .div1 > div:last-child > div > p {
     color: #f1f1f1;
     font-size: 14;
+}
+#h1-1 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.div2 {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+    padding: 0 150px 0 150px;
+    margin-bottom: 50px;
+}
+.div2 > div {
+    align-items: center;
+    text-align: center;
+}
+.div2 > div > img {
+    margin-bottom: 10px;
+}
+.div2 > div > p {
+    margin-top: 10px;
+    font-size: larger;
+    padding: 0 50px;
+}
+.div3 {
+    height: 611px;
+    background: url(images/4\ 5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    text-align: center;
+    padding: 75px 350px;
+    margin-bottom: 50px;
+}
+.div3 > h1 {
+    color: white;
+    font-size: 44px;
+    margin-bottom: 50px;
+}
+.div3 > form > input,
+.div3 > form > button {
+    width: 80%;
+    height: 65px;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+.div3 > form > input {
+    padding: 0 25px;
+    margin-bottom: 20px;
+}
+.div3 > form > button {
+    font-weight: 600;
+    color: white;
+    background-color: #066bfd;
+}
+.grid2 {
+    width: 100%;
+    /* height: 500px; */
+    gap: 50px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 125px 0 125px;
+    margin-bottom: 50px;
 }
