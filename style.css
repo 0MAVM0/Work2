@@ -169,9 +169,19 @@ nav > ul > li:first-child {
 .grid2 {
     width: 100%;
     /* height: 500px; */
-    gap: 50px;
+    gap: 25px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(3, 1fr);
     padding: 0 125px 0 125px;
     margin-bottom: 50px;
+}
+.grid2 > div {
+    align-items: center;
+    text-align: center;
+}
+.grid2 > div > img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
