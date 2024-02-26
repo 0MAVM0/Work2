@@ -112,6 +112,9 @@ nav > ul > li:first-child {
     text-align: center;
     margin-bottom: 50px;
 }
+#h1-1 > span {
+    color: #066bfd;
+}
 .div2 {
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
@@ -168,7 +171,6 @@ nav > ul > li:first-child {
 }
 .grid2 {
     width: 100%;
-    /* height: 500px; */
     gap: 25px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(3, 1fr);
@@ -184,4 +186,43 @@ nav > ul > li:first-child {
     height: 100px;
     margin: 0 auto;
     margin-bottom: 20px;
+}
+.div4 {
+    width: 100%;
+    background-color: rgba(230, 230, 230, 0.5);
+    padding: 50px 150px 50px 150px;
+    text-align: center;
+}
+.div4 > #h1-1 {
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+.div4 > hr {
+    width: 400px;
+    height: 3px;
+    border: none;
+    background-image: linear-gradient(to right, rgba(41, 120, 83, 0.98), rgba(41, 120, 83, 0.98));
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0 0 40px 0;
+}
+.grid3 {
+    gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid3 > div {
+    text-align: center;
+    align-items: center;
+}
+.grid3 > div > #h1-1 {
+    margin-bottom: 15px;
+}
+.grid3 > div > p {
+    font-size: medium;
+    font-weight: 600;
+}
+.grid3 > div > img {
+    width: 140px;
+    height: 140px;
 }

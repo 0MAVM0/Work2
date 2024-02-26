@@ -6,7 +6,7 @@ document.getElementById('submit-btn').addEventListener('click', function() {
         phone: document.getElementById('phone').value
     };
 
-    emailjs.send('service_zyy1i9r', 'template', formData)
+    emailjs.send('service_3g6gffm', 'template', formData)
         .then(function(response) {
             console.log('Письмо успешно отправлено!', response.status, response.text);
         }, function(error) {
