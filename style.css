@@ -278,7 +278,43 @@ nav > ul > li:first-child {
     color: white;
     background-color: #066bfd;
 }
-
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: #696969;
+    padding: 25px 50px;
+}
+.header {
+    width: 100%;
+}
+.header {
+    height: 60px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.header > li:first-child {
+    margin-right: auto;
+}
+.header > li > h2 {
+    color: #066bfd;
+}
+.body {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.body > li > ul {
+    list-style: none;
+}
+.body > li > ul > li > a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
 #scrollToTopBtn {
     position: fixed;
     right: 40px;
