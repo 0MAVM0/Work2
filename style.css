@@ -1,11 +1,15 @@
-/* ШРИФТ - GILROY */
-/* ЦВЕТ - #066bfd */
+@font-face {
+    font-family: 'Gilroy';
+    src: url('C:/Users/ms/Downloads/Gilroy-Medium.woff2') format('woff2'),
+         url('C:/Users/ms/Downloads/Gilroy-Medium.woff') format('woff'),
+         url('C:/Users/ms/Downloads/Gilroy-Medium.ttf') format('truetype');
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     transition: 0.5s;
-    /* font-family: ; */
+    font-family: 'Gilroy', sans-serif;
 }
 #grid {
     display: grid;
@@ -95,7 +99,7 @@ nav > ul > li:first-child {
 }
 .div1 > div:last-child > div {
     width: 451px;
-    height: 125px;
+    height: 140px;
     border-radius: 15px;
     background-color: #4b4b4b;
     position: absolute;
