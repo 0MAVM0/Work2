@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url('C:/Users/ms/Downloads/Gilroy-Medium.woff2') format('woff2'),
-         url('C:/Users/ms/Downloads/Gilroy-Medium.woff') format('woff'),
-         url('C:/Users/ms/Downloads/Gilroy-Medium.ttf') format('truetype');
+    src: url('fonts/Gilroy-Medium.woff2') format('woff2'),
+         url('fonts/Gilroy-Medium.woff') format('woff'),
+         url('fonts/Gilroy-Medium.ttf') format('truetype');
 }
 * {
     margin: 0;
