@@ -278,3 +278,15 @@ nav > ul > li:first-child {
     color: white;
     background-color: #066bfd;
 }
+
+#scrollToTopBtn {
+    position: fixed;
+    right: 40px;
+    bottom: -70px;
+    width: 70px;
+    height: 70px;
+    background: url(images/backToTop-removebg-preview.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition: bottom 0.3s ease-in-out;
+}
