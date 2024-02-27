@@ -230,3 +230,48 @@ nav > ul > li:first-child {
     width: 140px;
     height: 140px;
 }
+.div5 {
+    width: 50%;
+    height: 675px;
+    margin: 25px auto;
+    border: 15px solid #066bfd;
+    box-shadow:
+    0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgba(0, 0, 0, 0.3),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 50px 50px;
+}
+.div5 > h1 {
+    font-size: 43px;
+    margin-bottom: 25px;
+}
+.div5 > p {
+    font-size: x-large;
+    margin-bottom: 50px;
+}
+.div5 > form > input,
+.div5 > form > button {
+    margin: 25px 0;
+    height: 65px;
+    font-size: medium;
+}
+.div5 > form > input {
+    width: 90%;
+    padding: 0;
+    border: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+.div5 > form > input:focus {
+    border-bottom: 3px solid darkgray;
+}
+.div5 > form > button {
+    width: 40%;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    color: white;
+    background-color: #066bfd;
+}
