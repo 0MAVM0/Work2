@@ -127,7 +127,7 @@ nav > ul > li:first-child {
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
     align-items: center;
-    padding: 0 150px 0 150px;
+    padding: 0 150px;
     margin-bottom: 50px;
 }
 .div2 > div {
@@ -181,7 +181,7 @@ nav > ul > li:first-child {
     gap: 25px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(3, 1fr);
-    padding: 0 125px 0 125px;
+    padding: 0 125px;
     margin-bottom: 50px;
 }
 .grid2 > div {
@@ -243,7 +243,7 @@ nav > ul > li:first-child {
     0 0 0 2px rgba(0, 0, 0, 0.3),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     text-align: center;
-    padding: 50px 50px;
+    padding: 50px;
 }
 .div5 > h1 {
     font-size: 43px;
@@ -285,9 +285,6 @@ footer {
     padding: 25px 50px;
 }
 .header {
-    width: 100%;
-}
-.header {
     height: 60px;
     width: 100%;
     list-style: none;
@@ -325,4 +322,69 @@ footer {
     background-size: cover;
     cursor: pointer;
     transition: bottom 0.3s ease-in-out;
+}
+@media (max-width: 1200px) {
+    .div1 {
+        width: 100%;
+        padding: 25px;
+        grid-template-columns: 3fr 1fr;
+        margin-bottom: 50px;
+    }
+    .div1 > div:first-child > h1 {
+        margin-bottom: 50px;
+    }
+    .grid1 {
+        width: 80%;
+        gap: 25px;
+    }
+    .grid1 > div > img {
+        margin-top: -15px;
+    }
+    .div2 {
+        padding: 0 100px;
+    }
+    .div2 > div > p {
+        padding: 0;
+    }
+    .div3 {
+        padding: 75px 150px 0;
+    }
+    .grid2 {
+        gap: 0;
+        padding: 0 100px;
+    }
+    .grid2 > div:first-child,
+    .grid2 > div:nth-child(2),
+    .grid2 > div:nth-child(3) {
+        height: 100px;
+    }
+    .grid2 > div:nth-child(4),
+    .grid2 > div:nth-child(5),
+    .grid2 > div:last-child {
+        margin-top: -25px;
+    }
+    .grid2 > div > img {
+        width: 75px;
+        height: 75px;
+    }
+    .grid2 > div > h3 {
+        font-size: medium;
+    }
+    .div4 {
+        padding: 50px 100px;
+    }
+    .div5 > h1 {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    .div5 > p {
+        font-size: larger;
+        margin-bottom: 50px;
+    }
+    .div5 > form > button {
+        width: 60%;
+    }
+    .body > li > ul > li > a {
+        font-size: small;
+    }
 }
