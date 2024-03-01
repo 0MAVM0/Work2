@@ -405,6 +405,46 @@ footer {
     .div1 > div:last-child {
         display: none;
     }
+    .div2 {
+        gap: 25px;
+        grid-template-columns: 1fr;
+    }
+    .div3 {
+        height: 450px;
+        padding: 25px 150px;
+    }
+    .div3 > h1 {
+        font-size: xx-large;
+    }
+    #h1-1 {
+        font-size: xx-large;
+    }
+    .grid2 {
+        gap: 25px;
+        grid-template-columns: 1fr;
+    }
+    .grid2 > div > img {
+        margin-top: 25px;
+    }
+    .grid2 > div > p {
+        padding: 15px 100px;
+    }
+    .div4 {
+        padding: 50px;
+    }
+    .div4 > #h1-1 {
+        font-size: 50px;
+    }
+    .grid3 > div > p {
+        font-size: small;
+    }
+    .grid3 > div > img {
+        width: 100px;
+        height: 100px;
+    }
+    .div5 {
+        width: 63%;
+    }
 }
 @media (max-width: 768px) {}
 @media (max-width: 576px) {}
