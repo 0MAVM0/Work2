@@ -385,7 +385,7 @@ footer {
         font-size: small;
     }
 }
-@media (max-width: 980px) {
+@media (max-width: 992px) {
     .div1 {
         grid-template-columns: 1fr;
         padding: 25px 150px;
