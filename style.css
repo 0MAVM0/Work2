@@ -446,7 +446,43 @@ footer {
         width: 63%;
     }
 }
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .div1 {
+        padding: 25px 75px;
+    }
+    .div3 {
+        height: 450px;
+        padding: 25px;
+    }
+    .div3 > h1 {
+        font-size: xx-large;
+    }
+    .grid2 > div {
+        margin-bottom: 25px;
+    }
+    .div4 > #h1-1 {
+        font-size: 40px;
+    }
+    .div4 > hr {
+        width: 50%;
+    }
+    .grid3 {
+        gap: 25px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .div5 {
+        width: 80%;
+    }
+    footer > .header {
+        margin-bottom: 15px;
+    }
+    footer > .body {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+}
 @media (max-width: 576px) {}
 @media (max-width: 480px) {}
 @media (max-width: 431px) {}
