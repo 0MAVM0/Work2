@@ -483,7 +483,86 @@ footer {
         gap: 25px;
     }
 }
-@media (max-width: 576px) {}
-@media (max-width: 480px) {}
-@media (max-width: 431px) {}
+@media (max-width: 431px) {
+    .div1 {
+        padding: 25px 75px;
+    }
+    .div1 > div:first-child > h1 {
+        font-size: larger;
+        margin-bottom: 25px;
+    }
+    .grid1 {
+        gap: 10px;
+        grid-template-columns: 1fr;
+    }
+    .grid1 > div {
+        grid-template-columns: 1fr 3fr;
+    }
+    .grid1 > div > img {
+        width: 50px;
+        height: 50px;
+        margin-top: 0;
+    }
+    .grid1 > div > p {
+        font-size: medium;
+    }
+    .div1 > div:first-child > div:last-child > button:last-child {
+        display: none;
+    }
+    .div2 {
+        gap: 50px;
+        padding: 0 25px;
+    }
+    .div2 > div > img {
+        width: 200px;
+        height: 200px;
+    }
+    .div3 {
+        height: 450px;
+        padding: 50px 0;
+    }
+    .div3 > h1 {
+        font-size: x-large;
+        margin-bottom: 15px;
+    }
+    .div3 > form > input,
+    .div3 > form > button {
+        width: 93%;
+    }
+    .grid2 {
+        padding: 0;
+    }
+    .grid2 > div > p {
+        padding: 0 25px;
+    }
+    .div4 > #h1-1 {
+        font-size: x-large;
+    }
+    .grid3 {
+        grid-template-columns: 1fr;
+    }
+    .grid3 > div > img {
+        width: 75px;
+        height: 75px;
+    }
+    .div5 {
+        width: 90%;
+        padding: 75px 0 0;
+    }
+    .div5 > h1 {
+        font-size: x-large;
+    }
+    .div5 > p {
+        font-size: large;
+        padding: 0 25px;
+    }
+    .div5 > form > button {
+        width: 90%;
+        height: 50px;
+    }
+    footer {
+        padding: 25px;
+        height: 300px;
+    }
+}
 @media (max-width: 391px) {}
