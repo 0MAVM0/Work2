@@ -148,7 +148,93 @@
             </p>
         </div>
     </div>
-    <div class="div4">
+    <div class="div4" id="grid">
+        <div id="section2">
+            <h1 id="h1-2">
+                <span>Рассчитайте</span> стоимость<br>
+                наших услуг <span>онлайн</span>
+            </h1>
+            <hr>
+            <br>
+            <p>
+                Ответьте на 4 вопроса
+                и узнайте примерную стоимость наших услуг
+            </p>
+            <br>
+            <div id="carousel">
+                <div class="slide">
+                    <label for="сумма">1. Укажите сумму проводки?</label>
+                    <br>
+                    <br>
+                    <input type="number" name="сумма" id="sumInput" placeholder="Сумма в рублях">
+                </div>
+                <div class="slide">
+                    <p>2. Списание за какой квартал интересует?</p>
+                    <br>
+                    <br>
+                    <form>
+                        <label class="radio-label">
+                            <input type="radio" name="option" value="option1" checked>
+                            <span>Текущий квартал</span>
+                        </label>
+                        <br>
+                        <label class="radio-label">
+                            <input type="radio" name="option" value="option2">
+                            <span>Предыдущий (любой)</span>
+                        </label>
+                    </form>
+                </div>
+                <div class="slide">
+                    <p>3. Ваша ставка НДС?</p>
+                    <br>
+                    <br>
+                    <form>
+                        <label class="radio-label">
+                            <input type="radio" name="vat" value="20" checked>
+                            <span>20%</span>
+                        </label>
+                        <br>
+                        <label class="radio-label">
+                            <input type="radio" name="vat" value="10">
+                            <span>10%</span>
+                        </label>
+                    </form>
+                </div>
+                <div class="slide">
+                    <p>4. Есть ли у Вас наш промокод?</p>
+                    <br>
+                    <form>
+                        <label class="radio-label">
+                            <input type="radio" name="promo" value="yes">
+                            <span>Да</span>
+                            <input type="text" id="promo-input" placeholder="Введите промокод">
+                        </label>
+                        <br>
+                        <label class="radio-label">
+                            <input type="radio" name="promo" value="no" checked>
+                            <span>Нет</span>
+                        </label>
+                    </form>
+                    <br>
+                </div>
+                <div class="slide">
+                    <p id="result"></p>
+                </div>
+                <div id="controls">
+                    <button id="prevBtn">Назад</button>
+                    <button id="nextBtn">Посчитать заново</button>
+                </div>
+                <div id="indicators">
+                    <div class="indicator"></div>
+                    <div class="indicator"></div>
+                    <div class="indicator"></div>
+                    <div class="indicator"></div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </div>
+    <div class="div5">
         <h1 id="h1-1">
             Порядок <span>работы</span> по шагам
         </h1>
@@ -208,7 +294,7 @@
             </div>
         </div>
     </div>
-    <div class="div5">
+    <div class="div6">
         <h1>Остались вопросы?</h1>
         <p>
             Напишите ваши контакты и наш менеджер
@@ -220,6 +306,19 @@
             <input type="text" name="name" id="name" placeholder="Ваше имя" required><br>
             <button type="button" id="submit-btn">Получить консультацию</button>
         </form>
+    </div>
+    <div class="popup-wrapper" id="popupWrapper">
+        <div class="popup" id="popup">
+            <h1>Оставить заявку</h1>
+            <form id="promo-form" action="#" method="POST">
+                <input type="text" name="name" id="name2" placeholder="Ваше имя" required><br>
+                <input type="text" name="phone" id="phone2" placeholder="+7(000)000-00-00" required>
+                <button type="button" id="submit-btn2">Отправить данные</button>
+            </form>
+            <p>
+                Заполняя поля, я прочитал <a href="#">политику конфиденциальности</a> и даю согласие на обработку данных.
+            </p>
+        </div>
     </div>
     <footer>
         <ul class="header">
