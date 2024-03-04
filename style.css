@@ -90,6 +90,10 @@ nav > ul > li:first-child {
 .div1 > div:first-child > div:last-child > button:last-child {
     background-color: #4b4b4b;
 }
+.div1 > div:first-child > div:last-child > button > a {
+    text-decoration: none;
+    color: white;
+}
 .div1 > div:last-child {
     width: 426px;
     height: 426px;
