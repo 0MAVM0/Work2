@@ -40,6 +40,12 @@ nav > ul > li {
 nav > ul > li:first-child {
     margin-right: auto;
 }
+nav > ul > li:nth-child(2) {
+    margin: 0 10px 0 0;
+}
+nav > ul > li:last-child {
+    margin: 0 0 0 10px;
+}
 .div1 {
     width: 100%;
     padding: 25px 150px 25px 150px;
@@ -48,7 +54,7 @@ nav > ul > li:first-child {
 }
 .div1 > div:first-child > h1 {
     font-size: 45px;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
 }
 .div1 > div:first-child > h1 > span {
     color: #066bfd;
@@ -67,7 +73,7 @@ nav > ul > li:first-child {
     margin-top: -20px;
 }
 .grid1 > div > p {
-    margin-left: -20px;
+    margin-left: -10px;
     font-size: large;
 }
 .div1 > div:first-child > div:last-child {
@@ -146,6 +152,7 @@ nav > ul > li:first-child {
     margin-top: 10px;
     font-size: larger;
     padding: 0 50px;
+    color: rgb(128, 128, 128);
 }
 .div3 {
     height: 611px;
@@ -359,7 +366,7 @@ nav > ul > li:first-child {
 }
 .grid3 {
     gap: 50px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 .grid3 > div {
     text-align: center;
@@ -495,7 +502,7 @@ footer {
     margin-right: auto;
 }
 .header > li > h2 {
-    color: #066bfd;
+    color: #066dfde6;
 }
 .body {
     width: 100%;
