@@ -501,6 +501,12 @@ footer {
 .header > li:first-child {
     margin-right: auto;
 }
+.header > li:nth-child(2) {
+    margin: 0 10px 0 0;
+}
+.header > li:last-child {
+    margin: 0 0 0 10px;
+}
 .header > li > h2 {
     color: #066dfde6;
 }
