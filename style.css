@@ -365,7 +365,7 @@ nav > ul > li:last-child {
     margin: 0 0 40px 0;
 }
 .grid3 {
-    gap: 50px;
+    gap: 10px;
     grid-template-columns: repeat(2, 1fr);
 }
 .grid3 > div {
@@ -382,6 +382,9 @@ nav > ul > li:last-child {
 .grid3 > div > img {
     width: 140px;
     height: 140px;
+}
+.grid3 > div:nth-child(even) > img {
+    margin-bottom: -35px;
 }
 .div6 {
     width: 50%;
@@ -508,7 +511,7 @@ footer {
     margin: 0 0 0 10px;
 }
 .header > li > h2 {
-    color: #066dfde6;
+    color: #066dfda1;
 }
 .body {
     width: 100%;
