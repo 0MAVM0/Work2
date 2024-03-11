@@ -488,7 +488,7 @@ nav > ul > li:last-child {
     font-size: large;
     font-weight: 600;
     color: white;
-    background-color: rgba(41, 120, 83, 0.98);
+    background-color: #066bfd;
 }
 footer {
     width: 100%;
