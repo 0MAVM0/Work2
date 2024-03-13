@@ -559,7 +559,7 @@ footer {
         padding: 0 100px;
     }
     .div2 > div > p {
-        padding: 0;
+        padding: 15px;
     }
     .div3 {
         padding: 75px 150px 0;
@@ -576,7 +576,7 @@ footer {
     .grid2 > div:nth-child(4),
     .grid2 > div:nth-child(5),
     .grid2 > div:last-child {
-        margin-top: -25px;
+        margin-top: 25px;
     }
     .grid2 > div > img {
         width: 75px;
@@ -658,13 +658,14 @@ footer {
     }
     #h1-1 {
         font-size: xx-large;
+        margin-bottom: 0;
     }
     .grid2 {
-        gap: 25px;
         grid-template-columns: 1fr;
     }
-    .grid2 > div > img {
-        margin-top: 25px;
+    .grid2 > div {
+        height: 100px;
+        margin: 50px 0;
     }
     .grid2 > div > p {
         padding: 15px 100px;
@@ -765,7 +766,7 @@ footer {
         font-size: xx-large;
     }
     .grid2 > div {
-        margin-bottom: 25px;
+        margin: 75px 0;
     }
     .div4 {
         width: 100%;
@@ -858,6 +859,27 @@ footer {
     }
 }
 @media (max-width: 576px) {
+    .div2 {
+        padding: 0 50px;
+    }
+    .div2 > div > p {
+        padding: 15px;
+    }
+    .div3 {
+        height: 500px;
+    }
+    .grid2 > div {
+        margin: 100px 0;
+    }
+    .grid2 > div:nth-child(2) {
+        margin: 50px;
+    }
+    .grid2 > div:nth-child(3) {
+        margin-top: 0;
+    }
+    .grid2 > div > p {
+        padding: 15px 25px;
+    }
     .div4 {
         height: 500px;
         padding: 10px 0 10px 75px;
@@ -889,6 +911,18 @@ footer {
     }
 }
 @media (max-width: 480px) {
+    nav {
+        padding: 20px;
+    }
+    .div1 {
+        padding: 25px;
+    }
+    .div2 > div > p {
+        height: 175px;
+    }
+    .div3 {
+        height: 550px;
+    }
     .div4 {
         padding: 10px 0 10px 50px;
         margin-bottom: 50px;
@@ -896,11 +930,28 @@ footer {
     .div4 > div:first-child > p {
         padding: 0 100px 0 0;
     }
+    .div6 {
+        width: 80%;
+        padding: 50px 15px;
+    }
+    .div6 > h1 {
+        font-size: 25px;
+    }
+    .div6 > p {
+        font-size: large;
+    }
+    .div6 > form > button {
+        width: 100%;
+    }
     .popup {
         width: 100%;
     }
 }
 @media (max-width: 431px) {
+    nav > ul > li:nth-child(2),
+    nav > ul > li:last-child {
+        margin: 0;
+    }
     .div1 {
         padding: 25px 75px;
     }
@@ -983,6 +1034,10 @@ footer {
     footer {
         padding: 25px;
         height: 300px;
+    }
+    .header > li:nth-child(2),
+    .header > li:last-child {
+        margin: 0;
     }
 }
 @media (max-width: 391px) {
