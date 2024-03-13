@@ -650,6 +650,9 @@ footer {
         gap: 25px;
         grid-template-columns: 1fr;
     }
+    .div2 > div {
+        margin: 25px 0;
+    }
     .div3 {
         height: 450px;
         padding: 25px 150px;
