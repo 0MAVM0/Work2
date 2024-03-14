@@ -1045,6 +1045,9 @@ footer {
     }
 }
 @media (max-width: 391px) {
+    .div1 {
+        padding: 25px 50px;
+    }
     .div4 {
         padding: 10px 0 10px 50px;
     }
