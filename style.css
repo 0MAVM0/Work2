@@ -957,7 +957,7 @@ footer {
         margin: 0;
     }
     .div1 {
-        padding: 25px 75px;
+        padding: 25px 50px;
     }
     .div1 > div:first-child > h1 {
         font-size: larger;
@@ -1046,7 +1046,7 @@ footer {
 }
 @media (max-width: 391px) {
     .div1 {
-        padding: 25px 50px;
+        padding: 25px;
     }
     .div4 {
         padding: 10px 0 10px 50px;
