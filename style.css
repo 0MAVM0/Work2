@@ -46,6 +46,9 @@ nav > ul > li:nth-child(2) {
 nav > ul > li:last-child {
     margin: 0 0 0 10px;
 }
+nav > ul > li > a {
+    text-decoration: none;
+}
 .div1 {
     width: 100%;
     padding: 25px 150px 25px 150px;
@@ -517,6 +520,9 @@ footer {
 }
 .header > li > h2 {
     color: #47c0eb;
+}
+.header > li > a {
+    text-decoration: none;
 }
 .body {
     width: 100%;
