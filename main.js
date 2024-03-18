@@ -172,16 +172,38 @@ function scrollToTop() {
     }
 }
 
-document.getElementById('submit-btn').addEventListener('click', function(event) {
-    var formData = {
-        name: document.getElementById('name').value,
-        phone: document.getElementById('phone').value
+function submitForm(formData) {
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", "https://nds-i-cheki.online/", true);
+
+    xhr.setRequestHeader("Tut-Net-NDS", "application/json");
+
+    xhr.onload = function () {
+        if (xhr.status === 200) {
+            console.log("Данные успешно отправлены!");
+        } else {
+            console.error("Произошла ошибка при отправке данных.");
+        }
     };
 
-    emailjs.send('service_1vasvns', 'template_cj6zt15', formData)
-        .then(function(response) {
-            console.log('Письмо успешно отправлено!', response.status, response.text);
-        }, function(error) {
-            console.log('Письмо не удалось отправить!', error);
-        });
+    xhr.onerror = function () {
+        console.error("Произошла ошибка при отправке данных.");
+    };
+
+    var jsonData = {};
+    formData.forEach(function(value, key){
+        jsonData[key] = value;
+    });
+    var json = JSON.stringify(jsonData);
+
+    xhr.send(json);
+}
+
+document.getElementById("submit-btn").addEventListener("click", function(event) {
+    event.preventDefault();
+
+    var formData = new FormData(document.getElementById("promo-form"));
+
+    submitForm(formData);
 });
